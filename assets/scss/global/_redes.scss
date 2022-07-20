@@ -1,0 +1,42 @@
+$redes: (
+    twitter: rgb(0, 238, 255),
+    facebook: rgb(0, 0, 255),
+    instagram: rgb(247, 7, 119),
+    spotify: rgb(39, 173, 39)
+);
+
+@each $red_social, $color in $redes {
+    .btn--#{$red_social} {
+        color:$color;
+    }
+}
+
+.color-twitter {
+    color: map-get($redes, twitter);
+  }
+
+
+.color-facebook {
+    color: map-get($redes, facebook);
+  }
+
+.color-instagram {
+    color: map-get($redes, instagram);
+  }
+
+.color-spotify {
+    color: map-get($redes, spotify);
+  }
+
+#miFooter {
+	i {
+		font-size: 20px;
+		padding: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		&:hover {
+			font-size: 23px;
+			color: white;
+		}
+	}
+}
