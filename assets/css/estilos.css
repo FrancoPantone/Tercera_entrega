@@ -155,13 +155,13 @@ header .overlay {
 }
 
 body {
-  font-family: "Montserrat-Regular";
+  font-family: "Arial";
   color: #fff;
   font-size: 15px;
   margin: 0; }
 
 input, textarea, select, button {
-  font-family: "Montserrat-Regular";
+  font-family: "arial";
   color: #fff;
   font-size: 15px; }
 
@@ -206,7 +206,7 @@ textarea {
 h3 {
   text-transform: uppercase;
   font-size: 45px;
-  font-family: "Montserrat-Bold";
+  font-family: "arial";
   text-align: center;
   margin-bottom: 12px; }
 
@@ -247,7 +247,7 @@ p {
   height: 43px;
   font-size: 15px;
   background: none;
-  font-family: "Montserrat-SemiBold"; }
+  font-family: "arial"; }
   .form-control:focus, .form-control:valid {
     border-bottom: 2px solid #fff; }
     .form-control:focus + span, .form-control:valid + span {
@@ -274,7 +274,7 @@ button {
   background: none;
   color: #fff;
   text-transform: uppercase;
-  font-family: "Montserrat-SemiBold";
+  font-family:"arial";
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   position: relative;
@@ -301,6 +301,7 @@ button {
     right: 0;
     bottom: 0;
     background: #ffe17e;
+    color:black;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
